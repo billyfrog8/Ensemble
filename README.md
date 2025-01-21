@@ -4,4 +4,4 @@ This project is a baseline for a feature based ensemble voting trading strategy.
 
 I specifically coded the binary features in a manner that I thought would lead the model to perform best on popular and volatile stocks. As seen below, this appears to have worked based on stocks like TSLA, PLTR, NVDA, MRNA etc. being among the top performers. Across these stocks, it generally appears that the models work better on the long side. One reason would be survivorship bias from not having a historical composition of the S&P 500 Index, but the other is that mean reversion should generally be expected on the downside for stocks in the index, while anti-mean reversion occurs with select stocks in the index on the upside. In my opinion, the key to model development is selecting the right markets and right times to apply them to, so having a theoretical basis for where they should work prior to development can help understand where the risk of overfitting lies.
 
-![image](https://github.com/user-attachments/assets/1bd4928f-44ef-4c35-a08a-be547359b91c)
+![Returns of top markets](image.png)
